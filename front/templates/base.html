@@ -137,12 +137,13 @@
 
             <div style="width:100%;display:flex;">
               <div class="linksite" style="display:inline-block;margin:auto;>
-                   <a href=" {% url 'nutridelta:index' %}">Acceuil</a>
-                <a href="{% url 'questionnaire:choixObjectif' %}">Faire le test</a>
-                <a href="#">Mon profil</a>
-                <a href="#"> A propos</a>
-                <a href="#">Contact</a>
-                <a href="#">Mention légales et CGU</a>
+                   <a href=" {% url 'nutridelta:index' %}">Acceuil</a>&nbsp;&nbsp;
+                <a href="{% url 'questionnaire:choixObjectif' %}">Faire le test</a>&nbsp;&nbsp;
+                <a href="#">Mon profil</a>&nbsp;&nbsp;
+                <a href="{% url 'nutridelta:aboutUs' %}"> Qui sommes nous ?</a>&nbsp;&nbsp;
+                <a href="{% url 'nutridelta:about' %}"> A propos de Nutridelta</a>&nbsp;&nbsp;
+                <a href="{% url 'nutridelta:contact' %}">Contact</a>&nbsp;&nbsp;
+                <a href="{% url 'nutridelta:mentions_legales' %}">Mention légales et CGU</a>
               </div>
             </div>
 

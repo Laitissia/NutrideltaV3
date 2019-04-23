@@ -1,0 +1,123 @@
+{% extends 'base.html' %}
+{% block content %}
+  {% load static %}
+
+
+<!-- titre de la section (avec un bandeau) -->
+    <div class= "containerContact">
+    <div class="container">
+      <div class="jumbotron text-center">
+        <h1>Qui sommes nous?</h1> 
+      </div>
+ 
+
+      <!-- presentation fondateurs -->
+       <div class="font-text-center" style="font-weight: bold;">Version 1 de Nutridelta</div>
+      <div class="mdl-grid about-grid-presentation-fondateur pull-center magic_flos_responsive" style="width:100%;">
+
+
+    <div style="padding:1em;width:25%;min-width:150px;">
+    <div >
+          <img src="{% static 'img/membres/AlexisAmiand.jpg' %}" class="membres-portrait border-shadow" alt="Alexis Amiand"></img>
+    </div>
+
+          <div class="partie-texte" >
+            Alexis Amiand
+            <br>
+            Chef de projet <a href="https://www.linkedin.com/in/alexisamiand/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+            Le couteau suisse, le vrai.
+        </div>
+      </div>
+
+      <div style="padding:1em;width:25%;min-width:150px;">
+    <div  class="partie-img" >
+          <img src="{% static 'img/membres/SeverinLhommelet.jpg' %}" class="membres-portrait border-shadow" alt="Alexis Amiand"></img>
+    </div>
+
+          <div class="partie-texte" class="font-text-center">
+            Severin L'Hommelet
+            <br>
+            Développeur full-stack <a href="https://www.linkedin.com/in/s%C3%A9verin-l-hommelet/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+            Motivé par une bonne bouteille de rhum, il peut faire des miracles.
+        </div>
+      </div>
+
+      <div style="padding:1em;width:25%;min-width:150px;">
+    <div  class="partie-img" >
+          <img src="{% static 'img/membres/Wassim.jpg' %}" class="membres-portrait border-shadow" alt="Alexis Amiand"></img>
+    </div>
+
+          <div class="partie-texte" class="font-text-center">
+            Wassim Kerkri
+          <br>
+          Responsable qualité <a href="https://www.linkedin.com/in/wassim-kerkri/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+          Un homme de qualité pour une assurance qualité de qualité.
+        </div>
+      </div>
+
+      <div style="padding:1em;width:25%;min-width:150px;">
+    <div  class="partie-img" >
+          <img src="{% static 'img/membres/BabujhiSaspaanithy.jpg' %}" class="membres-portrait border-shadow" alt="Alexis Amiand"></img>
+    </div>
+
+          <div class="partie-texte" class="font-text-center"> 
+            Babujhi Saspaanithy
+          <br>
+          Le scientifique <a href="https://www.linkedin.com/in/babujhisaspaanithy/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+          Présent au début du projet, il a contribué à poser les bases scientifiques du projet.
+        </div>
+      </div>
+
+
+
+
+</div>
+
+
+<div class="font-text-center" style="font-weight: bold;">Version 2 de Nutridelta</div>
+      <div class="mdl-grid about-grid-presentation-fondateur pull-center">
+
+
+        <div class="membres-container">
+          <img src="{% static 'img/membres/b_delpech.png' %}" class="membres-portrait border-shadow" alt="Benjamin Delpech"></img>
+          <div class="about-fondateur-name">Benjamin DELPECH
+            <br>
+            Développeur full-stack <a href="https://www.linkedin.com/in/benjamin-delpech-10b9ba153/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+            Le profil technique.
+        </div>
+      </div>
+
+        <div class="membres-container">
+          <img src="{% static 'img/membres/c_risso.png' %}" class="membres-portrait border-shadow" alt="Clément Risso"></img>
+          <div class="about-fondateur-name">Clément Risso
+            <br>
+            Développeur full-stack <a href="https://www.linkedin.com/in/cl%C3%A9ment-risso-0973a66a/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+            L'oganisation.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- texte d'introduction -->
+      <div class="about-intro" style="margin-top:100px;">
+          <div class="font-title-md">
+           Nutridelta, c’est avant tout une équipe.
+           <br><br>
+           Son histoire...
+           <br><br>
+          </div>
+
+          <div class="font-text-center" style="text-align: justify;">
+            Préserver sa santé, c’est aussi avoir une bonne hygiène de vie, et cela passe avant tout par la qualité de son alimentation. Mais dans nos sociétés modernes, où les repas sont de moins en moins riches et où les mauvaises habitudes s’installent, il est de plus en plus difficile de maintenir un apport suffisant en vitamines. Le constat est même alarmant.<br><br>
+            La prise de compléments alimentaires a longtemps été proposée comme étant une solution efficace. Cela est vrai, à condition que l’individu soit remis au centre de l’affaire avec une prescription sur-mesure. Ce n’est qu’en calculant précisément les carences de chacun qu’il est possible de relever un tel défi.<br><br>
+            Mais comment permettre à chacun de déterminer ses carences sans passer par un bilan sanguin ? Il fallait créer un outil capable de cela. Un tel outil, ce fut au départ une simple idée, mais c’est aujourd’hui Nutridelta. Avant d’en arriver là, c’est la coopération entre l’entreprise Benefik et une équipe de jeunes étudiants qui marque le début de cette histoire.<br><br>
+            Issus du Master Génie Physiologique, Biotechnologique et Informatique de l’université de Poitiers, une double formation en sciences de la santé et en informatique, ces étudiants ont conçu l’application Nutridelta et sa méthode de calcul unique et ingénieuse.<br><br>
+            Ils ont mobilisé leurs connaissances scientifiques pour extraire des données fiables, qui à l’origine étaient éparpillées dans des livres et des publications scientifiques, pour mettre en place leur méthode de calcul précise et juste. Leurs connaissances techniques et leur sens de la gestion leur ont permis de créer l’application web Nutridelta.
+          </div>
+          <br>
+      </div>
+</div>
+</div>
+</div>
+
+{% endblock %}
